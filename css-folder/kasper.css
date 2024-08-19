@@ -1,7 +1,7 @@
 /*start Global Rules*/
 
 *{
-    margin: 0px;
+    margin: 0px 0px;
 }
 
 html{
@@ -13,26 +13,75 @@ html{
 body{
 
     font-family: "Open Sans", sans-serif;
+
 }
 
-/* Small */
-@media (min-width: 768px) {
-    .container {
-     width: 750px;
-    }
-  }
-  /* Medium */
-  @media (min-width: 992px) {
-    .container {
-     width: 970px;
-    }
+:root{
+
+    --maincolor: #19c8fa;
+    --mainmargin: 40px;
+    --mainfontsiez:20px;
+
 }
-  /* Large */
-@media (min-width: 1200px) {
-    .container {
-     width: 1170px;
-    }
-}
-/*start Global Rules*/
+
+/*end Global Rules*/
+
+/* start header*/
 
 
+.header .container{
+
+    margin-left: var(--mainmargin);
+    margin-right: var(--mainmargin);
+}
+
+.header .container .Row-Of-Header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: var(--mainfontsiez);
+
+}
+
+.header .container .logo-header-Image{
+
+    width: 45%;
+
+}
+
+.header .container .logo-header-Image .logo-image{
+
+    width: 150px;
+
+}
+
+.header .container .Row-Of-Header .links{
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.header .container .Row-Of-Header .links a{
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+.header .container .Row-Of-Header .font-of-header ::after{
+
+    content:"";
+    position: absolute;
+    width: 2px;
+    height: 30px;
+    background-color: black;
+    right: 80px;
+    top: 23px;
+ 
+}
+
+
+
+/* end header*/
