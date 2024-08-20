@@ -1,6 +1,7 @@
 /*start Global Rules*/
 
 *{
+
     margin: 0px 0px;
 }
 
@@ -19,8 +20,8 @@ body{
 :root{
 
     --maincolor: #19c8fa;
-    --mainmargin: 40px;
-    --mainfontsiez:20px;
+    --mainmargin: 80px;
+    --mainfontsiez: 18px;
 
 }
 
@@ -28,60 +29,64 @@ body{
 
 /* start header*/
 
+.header {
+
+    background-image: url(../images-folder/landing\ \(1\).jpg);
+
+}
 
 .header .container{
 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 50px;
+    border-bottom: white solid 2px;
+    font-size: var(--mainfontsiez);
     margin-left: var(--mainmargin);
     margin-right: var(--mainmargin);
 }
 
-.header .container .Row-Of-Header{
 
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    font-size: var(--mainfontsiez);
-
-}
-
-.header .container .logo-header-Image{
-
-    width: 45%;
-
-}
-
-.header .container .logo-header-Image .logo-image{
+.header .container .logo-image-of-header .logo-image{
 
     width: 150px;
-
-}
-
-.header .container .Row-Of-Header .links{
-
-    display: flex;
-    gap: 30px;
-
-}
-
-.header .container .Row-Of-Header .links a{
-
-    text-decoration: none;
-    color: black;
     
 }
 
-.header .container .Row-Of-Header .font-of-header ::after{
+.header .container .links{
 
-    content:"";
-    position: absolute;
-    width: 2px;
-    height: 30px;
-    background-color: black;
-    right: 80px;
-    top: 23px;
- 
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: end;
 }
 
+.header .container .links :hover{
+
+    color: var(--maincolor);
+    border-bottom: 2px var(--maincolor) solid;
+    row-gap: 20px;
+
+}
+
+.header .container .links .active{
+
+    color: var(--maincolor);
+}
+
+.header .container .font-of-search ::after{
+
+   content: "";
+   position: absolute;
+   background-color: white;
+   height: 30px;
+   width: 2px;
+   right: 120px;
+   top: 10px;
+
+}
 
 
 /* end header*/
