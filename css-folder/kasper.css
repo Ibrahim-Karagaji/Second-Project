@@ -22,6 +22,7 @@ body{
     --maincolor: #19c8fa;
     --mainmargin: 80px;
     --mainfontsiez: 18px;
+    --linkspadding: 17px;
 
 }
 
@@ -32,7 +33,7 @@ body{
 .header {
 
     background-image: url(../images-folder/landing\ \(1\).jpg);
-
+    background-size: cover;
 }
 
 .header .container{
@@ -42,7 +43,7 @@ body{
     align-items: center;
     color: white;
     gap: 50px;
-    border-bottom: white solid 2px;
+    border-bottom: white solid 1px;
     font-size: var(--mainfontsiez);
     margin-left: var(--mainmargin);
     margin-right: var(--mainmargin);
@@ -52,22 +53,28 @@ body{
 .header .container .logo-image-of-header .logo-image{
 
     width: 150px;
-    
+
 }
 
 .header .container .links{
 
     display: flex;
-    gap: 20px;
     flex-grow: 1;
     justify-content: end;
+    margin-bottom: -1px;
+
 }
 
-.header .container .links :hover{
+.header .container .links a{
 
-    color: var(--maincolor);
-    border-bottom: 2px var(--maincolor) solid;
-    row-gap: 20px;
+    padding: var(--linkspadding);
+
+}
+
+.header .container .links .active{
+
+    border-bottom: var(--maincolor) solid 2px;
+    margin-bottom: 0px;
 
 }
 
@@ -75,6 +82,38 @@ body{
 
     color: var(--maincolor);
 }
+
+.header .container .links :hover{
+
+    color: var(--maincolor);
+    padding: var(--linkspadding);
+    border-bottom: 2px var(--maincolor) solid;
+
+}
+
+@media(max-width:1000px){
+    .header .container .links{
+  
+        display: none;
+  
+    }
+}
+
+.header .container .font-of-options{
+
+    display: none;
+}
+
+@media(max-width:1000px){
+    .header .container .font-of-options{
+  
+        display: flex;
+        flex-grow: 1;
+        justify-content: end;
+        
+    }
+}
+
 
 .header .container .font-of-search ::after{
 
@@ -84,9 +123,8 @@ body{
    height: 30px;
    width: 2px;
    right: 120px;
-   top: 10px;
+   top: 13px;
 
 }
-
 
 /* end header*/
