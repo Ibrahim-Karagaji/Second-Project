@@ -20,7 +20,9 @@ body{
 :root{
 
     --maincolor: #19c8fa;
+    --secondarycolor :white;
     --mainmargin: 80px;
+    --mainpadding: 80px;
     --mainfontsiez: 18px;
     --linkspadding: 17px;
 
@@ -28,35 +30,49 @@ body{
 
 /*end Global Rules*/
 
-/* start header*/
+/* start home-page*/
 
-.header {
+.home-page {
 
     background-image: url(../images-folder/landing\ \(1\).jpg);
     background-size: cover;
 }
 
-.header .container{
+/* start header*/
+
+
+.home-page .header .container{
 
     display:flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: var(--secondarycolor);
     gap: 50px;
     border-bottom: white solid 1px;
     font-size: var(--mainfontsiez);
     margin-left: var(--mainmargin);
     margin-right: var(--mainmargin);
+    padding-top: 40px;
+}
+
+@media(max-width:442px){
+
+.home-page .header .container{
+
+    border-style:  none;
+
+    }
+
 }
 
 
-.header .container .logo-image-of-header .logo-image{
+.home-page .header .container .logo-image-of-header .logo-image{
 
     width: 150px;
 
 }
 
-.header .container .links{
+.home-page .header .container .links{
 
     display: flex;
     flex-grow: 1;
@@ -65,25 +81,24 @@ body{
 
 }
 
-.header .container .links a{
+.home-page .header .container .links a{
 
     padding: var(--linkspadding);
 
 }
 
-.header .container .links .active{
+.home-page .header .container .links .active{
 
     border-bottom: var(--maincolor) solid 2px;
-    margin-bottom: 0px;
 
 }
 
-.header .container .links .active{
+.home-page .header .container .links .active{
 
     color: var(--maincolor);
 }
 
-.header .container .links :hover{
+.home-page .header .container .links :hover{
 
     color: var(--maincolor);
     padding: var(--linkspadding);
@@ -92,30 +107,36 @@ body{
 }
 
 @media(max-width:1000px){
-    .header .container .links{
+
+    .home-page .header .container .links{
   
         display: none;
   
     }
+
 }
 
-.header .container .font-of-options{
+.home-page .header .container .font-of-options{
 
     display: none;
+
 }
 
 @media(max-width:1000px){
-    .header .container .font-of-options{
+
+    .home-page .header .container .font-of-options{
   
         display: flex;
         flex-grow: 1;
         justify-content: end;
         
     }
+
 }
 
+@media(min-width:442px){
 
-.header .container .font-of-search ::after{
+.home-page .header .container .font-of-search ::after{
 
    content: "";
    position: absolute;
@@ -123,8 +144,122 @@ body{
    height: 30px;
    width: 2px;
    right: 120px;
-   top: 13px;
+   top: 53px;
+
+    }
 
 }
 
 /* end header*/
+
+/* start landing*/
+
+.home-page .landing .container{
+
+    color: var(--secondarycolor);
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
+
+}
+
+
+@media(max-width:1000px){
+
+    .home-page .landing .container{
+  
+        width: 100%;
+    }
+
+}
+
+.home-page .landing .container .text{
+
+    padding: var(--mainpadding) 20px var(--mainpadding) var(--mainpadding);
+    background-color: rgb(15 116 143 / 70%);
+    
+}
+
+.home-page .landing .container .text p{
+
+    font-size: 40px;
+    padding-bottom: 15px;
+    line-height: 50px;
+
+}
+
+.home-page .landing .container .text span{
+
+    line-height: 35px;
+
+}
+
+
+.home-page .landing .container .move-options .right-option i{
+
+    position: absolute;
+    top:50%;
+    right: 30px;
+    
+}
+
+@media(max-width:1000px){
+
+    .home-page .landing .container .move-options .right-option i{
+
+        display: none;
+
+    }
+
+}
+
+.home-page .landing .container .move-options .left-option i{
+
+    position: absolute;
+    top:50%;
+    left: 30px;
+ 
+}
+
+@media(max-width:1000px){
+
+    .home-page .landing .container .move-options .left-option i{
+
+        display: none;
+
+    }
+
+}
+
+.home-page .landing .bullets{
+
+    display: flex;
+    color: var(--secondarycolor);
+    margin-top: var(--mainmargin);
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.home-page .landing .bullets div{
+
+    height: 30px;
+    width: 30px;
+    border: var(--secondarycolor) 2px solid;
+    border-radius: 50%;
+
+}
+
+.home-page .landing .bullets .active{
+
+    background-color: var(--maincolor);
+    border: var(--maincolor) 2px solid;
+
+}
+
+
+
+/* end landing*/
+
+/* end home-page*/
