@@ -62,7 +62,7 @@ body{
     border-radius: 50%;
     height: 10px;
     width: 10px;
-    right: 50%;
+    right: 49.5%;
     top: 57px;
 }
 
@@ -70,6 +70,7 @@ body{
 
     margin-top: 50px;
     text-align: center;
+    color: #777;
     margin-left: var(--mainmargin);
     margin-right: var(--mainmargin);
 
@@ -137,7 +138,7 @@ body{
 
 .home-page .header .container .links .active{
 
-    border-bottom: var(--maincolor) solid 2px;
+    border-bottom: var(--maincolor) solid 1px;
 
 }
 
@@ -150,7 +151,7 @@ body{
 
     color: var(--maincolor);
     padding: var(--linkspadding);
-    border-bottom: 2px var(--maincolor) solid;
+    border-bottom: 1px var(--maincolor) solid;
 
 }
 
@@ -311,3 +312,57 @@ body{
 
 /* end home-page*/
 
+/* start ervices*/
+
+.cards-of-service .cards{
+
+    display: flex;
+    margin-top: var(--mainmargin);
+    margin-left: var(--mainmargin);
+    margin-right: var(--mainmargin);
+    font-size: var(--mainfontsiez);
+    gap: 50px;
+
+}
+
+@media(max-width:1000px){
+.cards-of-service .cards{
+
+    display: grid;
+}
+}
+
+.card{
+
+    display: flex;
+}
+
+
+.cards i{
+
+    font-size: 40px;
+
+}
+
+.cards .text{
+    
+    display: grid;
+    gap: 35px;
+    padding-left: 30px;
+}
+
+.cards p{
+    
+    font-size: 30px;
+    color:var(--maincolor);
+
+}
+
+.cards span{
+
+    color:#777;
+    line-height: 30px;
+
+}
+
+/* end ervices*/
