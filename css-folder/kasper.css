@@ -75,6 +75,7 @@ body{
     color: #777;
     margin-left: var(--mainmargin);
     margin-right: var(--mainmargin);
+    padding-bottom: var(--mainpadding);
 
 }
 
@@ -115,7 +116,6 @@ body{
     }
 
 }
-
 
 .home-page .header .container .logo-image-of-header .logo-image{
 
@@ -441,6 +441,22 @@ body{
 
 /* start Portfolio*/
 
+.titles-of-Portfolio{
 
+    text-align: center;
+    padding-bottom: var(--mainpadding);
+}
+
+.titles-of-Portfolio span{
+
+    padding: 10px;
+}
+
+.titles-of-Portfolio .active{
+
+    background-color: var(--maincolor);
+    color:var(--secondarycolor);
+
+}
 
 /* end Portfolio*/
