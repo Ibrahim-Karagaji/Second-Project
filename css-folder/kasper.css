@@ -312,14 +312,12 @@ body{
 
 /* end home-page*/
 
-/* start ervices*/
+/* start services*/
 
 .cards-of-service .cards{
 
     display: flex;
-    margin-top: var(--mainmargin);
-    margin-left: var(--mainmargin);
-    margin-right: var(--mainmargin);
+    margin: var(--mainmargin);
     font-size: var(--mainfontsiez);
     gap: 50px;
 
@@ -365,4 +363,4 @@ body{
 
 }
 
-/* end ervices*/
+/* end services*/
