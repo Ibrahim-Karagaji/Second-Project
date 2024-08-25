@@ -35,14 +35,6 @@ body{
 
 /*start Gcomponents*/
 
-.Mislead{
-
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: #1f202129;
-
-}
 
 .special-heading{
 
@@ -377,7 +369,6 @@ body{
 
 /* start Design*/
 
-
 .design{
 
     display: flex;
@@ -401,6 +392,14 @@ body{
     padding-left: var(--mainpadding);
     position: relative;
     top: 150px;
+}
+
+@media(max-width:1000px){
+.design .container .moblie-image{
+
+    display: none;
+    
+}
 }
 
 .design .text{
