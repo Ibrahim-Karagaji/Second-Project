@@ -26,6 +26,7 @@ body{
     --mainpadding: 80px;
     --mainfontsiez: 18px;
     --linkspadding: 17px;
+    --backgroundtext:rgb(15 116 143 / 70%);
     --specialheadingfont: 20px;
 
 }
@@ -33,6 +34,15 @@ body{
 /*end Global Rules*/
 
 /*start Gcomponents*/
+
+.Mislead{
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #1f202129;
+
+}
 
 .special-heading{
 
@@ -76,6 +86,7 @@ body{
 
 }
 
+
 /*end components*/
 
 /* start home-page*/
@@ -87,7 +98,6 @@ body{
 }
 
 /* start header*/
-
 
 .home-page .header .container{
 
@@ -226,7 +236,7 @@ body{
 .home-page .landing .container .text{
 
     padding: var(--mainpadding) 20px var(--mainpadding) var(--mainpadding);
-    background-color: rgb(15 116 143 / 70%);
+    background-color: var(--backgroundtext);
     
 }
 
@@ -364,3 +374,68 @@ body{
 }
 
 /* end services*/
+
+/* start Design*/
+
+
+.design{
+
+    display: flex;
+    background-image: url(../images-folder/design-features.jpg);
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.design .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-grow: 1;
+}
+
+.design .container .moblie-image{
+
+    padding-left: var(--mainpadding);
+    position: relative;
+    top: 150px;
+}
+
+.design .text{
+    
+    background-color: var(--backgroundtext);
+    color: var(--secondarycolor);
+    flex-grow: 1;
+    padding: 40px;
+
+}
+
+.design .text div{
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.design .font-design{
+
+    font-size: 8px;
+    align-items: center;
+
+}
+
+.design .text h2{
+
+    padding-bottom: 30px;
+
+}
+
+.design .text p{
+
+    line-height: 50px;
+
+}
+
+/* end Design*/
