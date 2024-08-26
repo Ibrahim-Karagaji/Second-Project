@@ -495,13 +495,18 @@ body{
 
 .images .options{
 
+
     position: absolute;
+    bottom: -67px;
+    width: 100%;
     background-color: var(--secondarycolor);
 }
 
 img:hover ~ .options{
 
-    
+    bottom: 0px;
+    padding: 10px;
+    transition: 0.5s;
 
 }
 
