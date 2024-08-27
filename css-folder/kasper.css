@@ -546,9 +546,21 @@ img:hover ~ .options{
 .more-option h3{
 
     background-color: var(--maincolor);
-    padding: 10px 20px
+    padding: 10px 20px;
+    margin-bottom: var(--mainmargin);
 
 }
 
-
 /* end Portfolio*/
+
+/* start video*/
+
+.video .mislead{
+    
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+
+}
+
+/* end video*/
