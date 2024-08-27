@@ -535,4 +535,20 @@ img:hover ~ .options{
 
 }
 
+.more-option{
+
+    display:flex;
+    color: var(--secondarycolor);
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.more-option h3{
+
+    background-color: var(--maincolor);
+    padding: 10px 20px
+
+}
+
+
 /* end Portfolio*/
