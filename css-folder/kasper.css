@@ -662,3 +662,23 @@ img:hover ~ .options{
 }
 
 /* end about-us*/
+
+/* start expertise*/
+
+.expertise .container{
+
+    margin: var(--mainmargin) var(--mainmargin) 0px; 
+}
+
+.expertise .container{
+
+    display: flex;
+}
+
+.testimonial .title-of-testimonial{
+
+    display:grid;
+    gap: 25px;
+
+}
+/* end expertise*/
