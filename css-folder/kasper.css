@@ -717,5 +717,29 @@ img:hover ~ .options{
 
 }
 
+.testimonial .circles-of-testimonial{
+
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.circles-of-testimonial div{
+
+    width: 15px;
+    height: 15px;
+    border: #777 solid 1px;
+    border-radius: 50%;
+    background-color: var(--secondarycolor);
+
+}
+
+.circles-of-testimonial .active{
+
+    background-color: var(--maincolor);
+
+}
 
 /* end expertise*/
