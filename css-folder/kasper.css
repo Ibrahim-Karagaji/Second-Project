@@ -555,8 +555,13 @@ img:hover ~ .options{
 
 /* start video*/
 
+.video .container{
+
+    position: relative;
+
+}
 .video .mislead{
-    
+
     position: absolute;
     background-color: #000000a6;
     width: 100%;
@@ -566,9 +571,18 @@ img:hover ~ .options{
 
 .video .text{
 
-    display: grid;
-    justify-content: center;
-    align-content: center;
+    padding: 60px;      
+    text-align: center;
+    color: var(--secondarycolor);
+    margin-top: 13%;
+    background-color: var(--backgroundtext);
+
+}
+
+.text .link{
+
+    padding: 10px 20px;
+    background-color: var(--tertiary);
 
 }
 
