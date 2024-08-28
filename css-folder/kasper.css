@@ -679,6 +679,43 @@ img:hover ~ .options{
 
     display:grid;
     gap: 25px;
+    margin-bottom: 80px;
 
 }
+
+.testimonial .people-cards{
+
+    display: grid;
+    gap: 40px;
+
+}
+
+.people-cards .person-card{
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.person-card img{
+
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.person-card .text{
+
+    display: grid;
+    border-bottom: 1px solid #777;
+
+}
+
+.text span{
+
+    justify-self: end;
+
+}
+
+
 /* end expertise*/
