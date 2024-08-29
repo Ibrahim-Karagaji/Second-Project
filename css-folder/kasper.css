@@ -672,11 +672,23 @@ img:hover ~ .options{
 
 .expertise .container{
 
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
 }
 
-.testimonial .title-of-testimonial{
+@media(max-width:930px){
+    .expertise .container{
+    
+        display: grid;
+        grid-template-columns: auto;
+    
+}
+}
 
+.expertise .titles-of-expertise{
+
+    text-align: center;
     display:grid;
     gap: 25px;
     margin-bottom: 80px;
