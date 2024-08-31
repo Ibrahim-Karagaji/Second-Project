@@ -700,6 +700,14 @@ img:hover ~ .options{
 
 }
 
+.expertise p{
+
+    line-height: 1.5;
+    color:#777;
+    font-size: var(--mainfontsiez);
+
+}
+
 .testimonial .people-cards{
 
     display: grid;
