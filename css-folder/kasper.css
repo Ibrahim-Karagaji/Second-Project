@@ -80,7 +80,6 @@ body{
 
 }
 
-
 /*end components*/
 
 /* start home-page*/
@@ -94,7 +93,6 @@ body{
 /* start header*/
 
 .home-page .header .container{
-
 
     display:flex;
     justify-content: space-between;
@@ -713,13 +711,13 @@ img:hover ~ .options{
 
     width: 100px;
     border-radius: 50%;
-
 }
 
 .person-card .text{
 
     display: grid;
     border-bottom: 1px solid #777;
+    gap: 15px;
 
 }
 
