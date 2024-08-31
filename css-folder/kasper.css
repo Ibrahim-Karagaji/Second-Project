@@ -597,7 +597,14 @@ img:hover ~ .options{
 .about-us .mobile-image-of-about{
 
     text-align: center;
+    width: 100%;
     margin-bottom: -5px;
+
+}
+
+.about-us .mobile-image-of-about img{
+
+    width: 70%;
 
 }
 
@@ -705,6 +712,14 @@ img:hover ~ .options{
     display: flex;
     gap: 30px;
 
+}
+
+@media(max-width:930px){
+.people-cards .person-card{
+
+    display: grid;
+
+}
 }
 
 .person-card img{
