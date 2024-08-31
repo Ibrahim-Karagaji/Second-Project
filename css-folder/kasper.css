@@ -682,7 +682,7 @@ img:hover ~ .options{
     gap: 20px;
 }
 
-@media(max-width:930px){
+@media(max-width:958px){
     .expertise .container{
     
         display: grid;
@@ -718,6 +718,21 @@ img:hover ~ .options{
 .people-cards .person-card{
 
     display: grid;
+
+}
+}
+
+.person-card img{
+
+    width: 100px;
+    border-radius: 50%;
+}
+
+@media(max-width:930px){
+.person-card img{
+
+    displaY: flex;
+    justify-self: center;
 
 }
 }
