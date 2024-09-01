@@ -849,12 +849,6 @@ img:hover ~ .options{
 
 }
 
-.html-and-css-rate .progs{
-
-    display: flex;
-
-}
-
 .html-and-css-rate .full{
 
     position: relative;
@@ -898,6 +892,54 @@ img:hover ~ .options{
 .html-and-css-rate .empty{
 
     width: 15%;
+    height: 30px;
+    background-color: #dedadc;
+
+}
+
+.javascript-rate .full{
+
+    position: relative;
+    width: 80%;
+    height: 30px;
+    background-color: var(--maincolor);
+
+}
+
+.javascript-rate .full::after{
+
+    content: "80%";
+    font-size: 15px;
+    position: absolute;
+    background-color: var(--tertiary);
+    color: var(--secondarycolor);
+    border: 5px solid var(--tertiary);
+    border-radius: 10%;
+    height: 18px;
+    width: 29px;
+    right: -13px;
+    top: -36px;
+
+}
+
+.javascript-rate .full::before{
+
+    content: "";
+    position: absolute;
+    border-width: 15px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    border-radius: 5%;
+    height: 0px;
+    width: 0px;
+    top: -19px;
+    right: -14px;
+
+}
+
+.javascript-rate .empty{
+
+    width: 20%;
     height: 30px;
     background-color: #dedadc;
 
