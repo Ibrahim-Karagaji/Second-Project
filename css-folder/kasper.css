@@ -789,7 +789,14 @@ img:hover ~ .options{
 
 }
 
-.adobe-rate h3{
+.statistics .rates{
+
+    display: grid;
+    gap: 20px;
+
+}
+
+.rates h3{
 
     padding-bottom: 15px;
 
