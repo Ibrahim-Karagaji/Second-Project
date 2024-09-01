@@ -493,7 +493,6 @@ body{
 
 .images .options{
 
-
     position: absolute;
     bottom: -67px;
     width: 100%;
@@ -679,7 +678,7 @@ img:hover ~ .options{
 
     display: grid;
     grid-template-columns: auto auto;
-    gap: 20px;
+    gap: 30px;
 }
 
 @media(max-width:958px){
@@ -694,7 +693,7 @@ img:hover ~ .options{
 .expertise .titles-of-expertise{
 
     text-align: center;
-    display:grid;
+    display: grid;
     gap: 25px;
     margin-bottom: 80px;
 
@@ -755,7 +754,7 @@ img:hover ~ .options{
 
     display: grid;
     border-bottom: 1px solid #777;
-    gap: 15px;
+    gap: 10px;
 
 }
 
@@ -787,6 +786,66 @@ img:hover ~ .options{
 .circles-of-testimonial .active{
 
     background-color: var(--maincolor);
+
+}
+
+.adobe-rate h3{
+
+    padding-bottom: 15px;
+
+}
+
+.adobe-rate .progs{
+
+    display: flex;
+
+}
+
+ .progs .full::after{
+
+    content: "90%";
+    font-size: 15px;
+    position: absolute;
+    background-color: var(--tertiary);
+    color: var(--secondarycolor);
+    border: 5px solid var(--tertiary);
+    border-radius: 10%;
+    height: 18px;
+    width: 29px;
+    right: -13px;
+    top: -36px;
+
+}
+
+.progs .full::before{
+
+    content: "";
+    position: absolute;
+    border-width: 15px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    border-radius: 5%;
+    height: 0px;
+    width: 0px;
+    top: -19px;
+    right: -14px;
+
+}
+
+.progs .full{
+
+    position: relative;
+    width: 90%;
+    height: 30px;
+    background-color: var(--maincolor);
+
+}
+
+.progs .empty{
+
+    width: 10%;
+    height: 30px;
+    background-color: #dedadc;
 
 }
 
