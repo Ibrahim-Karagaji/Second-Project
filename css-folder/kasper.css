@@ -795,13 +795,13 @@ img:hover ~ .options{
 
 }
 
-.adobe-rate .progs{
+.rates .progs{
 
     display: flex;
 
 }
 
- .progs .full::after{
+ .adobe-rate .full::after{
 
     content: "90%";
     font-size: 15px;
@@ -817,7 +817,7 @@ img:hover ~ .options{
 
 }
 
-.progs .full::before{
+.adobe-rate .full::before{
 
     content: "";
     position: absolute;
@@ -832,7 +832,7 @@ img:hover ~ .options{
 
 }
 
-.progs .full{
+.adobe-rate .full{
 
     position: relative;
     width: 90%;
@@ -841,9 +841,63 @@ img:hover ~ .options{
 
 }
 
-.progs .empty{
+.adobe-rate .empty{
 
     width: 10%;
+    height: 30px;
+    background-color: #dedadc;
+
+}
+
+.html-and-css-rate .progs{
+
+    display: flex;
+
+}
+
+.html-and-css-rate .full{
+
+    position: relative;
+    width: 85%;
+    height: 30px;
+    background-color: var(--maincolor);
+
+}
+
+.html-and-css-rate .full::after{
+
+    content: "85%";
+    font-size: 15px;
+    position: absolute;
+    background-color: var(--tertiary);
+    color: var(--secondarycolor);
+    border: 5px solid var(--tertiary);
+    border-radius: 10%;
+    height: 18px;
+    width: 29px;
+    right: -13px;
+    top: -36px;
+
+}
+
+.html-and-css-rate .full::before{
+
+    content: "";
+    position: absolute;
+    border-width: 15px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    border-radius: 5%;
+    height: 0px;
+    width: 0px;
+    top: -19px;
+    right: -14px;
+
+}
+
+.html-and-css-rate .empty{
+
+    width: 15%;
     height: 30px;
     background-color: #dedadc;
 
