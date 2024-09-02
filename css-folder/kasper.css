@@ -1039,3 +1039,82 @@ img:hover ~ .options{
 }
 
 /* end expertise*/
+
+/* start Pricing*/
+
+.pricing .container{
+
+    padding: 0px var(--mainpadding);
+
+}
+
+.pricing .type-of-subscriptions{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.type-of-subscriptions .subscription{
+
+    background-color: #fcfcfc;
+    padding: 30px 0px;
+    displaY: grid;
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.subscription .pric-of-basic{
+
+    displaY: grid;
+    gap: 15px;
+    border-top: var(--maincolor) 1px solid;
+    padding: 10px 50px 0px;
+
+}
+
+.pric-of-basic h1{
+
+    position: relative;
+    font-size: 70px;
+
+}
+
+.pric-of-basic h1::before{
+
+    content: "$";
+    position: absolute;
+    font-size: 30px;
+    left: -20px;
+    top: 0px;
+
+}
+
+.pric-of-basic h1::after{
+
+    content: "/Mo";
+    position: absolute;
+    font-size: 25px;
+    right: -45px;
+    bottom: 0px;
+
+}
+
+.subscription .features p{
+
+    padding: 15px 0px;
+    border-top: solid var(--maincolor) 1px;
+
+}
+
+.subscription .buy p{
+
+    border: solid var(--maincolor) 1px;
+    padding: 15px 10px;
+    color: blue;
+
+}
+
+/* end Pricing*/
