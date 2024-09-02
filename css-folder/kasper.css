@@ -681,7 +681,7 @@ img:hover ~ .options{
     gap: 30px;
 }
 
-@media(max-width:958px){
+@media(max-width:1080px){
     .expertise .container{
     
         display: grid;
