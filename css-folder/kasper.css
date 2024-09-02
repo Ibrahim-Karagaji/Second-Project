@@ -671,7 +671,7 @@ img:hover ~ .options{
 
 .expertise .container{
 
-    margin: var(--mainmargin) var(--mainmargin) 0px; 
+    margin: var(--mainmargin); 
 }
 
 .expertise .container{
