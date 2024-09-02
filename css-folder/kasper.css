@@ -557,6 +557,7 @@ img:hover ~ .options{
     position: relative;
 
 }
+
 .video .mislead{
 
     position: absolute;
@@ -997,6 +998,39 @@ img:hover ~ .options{
     width: 10%;
     height: 30px;
     background-color: #dedadc;
+
+}
+
+.expertise .imag-part{
+
+    position: relative;
+
+    
+}
+
+.expertise .text-of-image{
+
+    position: absolute;
+    background-color: #000000a6;
+    height: 75%;
+    width: 100%;
+    text-align: center;
+    color:var(--secondarycolor);
+    font-size: 25px;
+}
+
+.text-of-image span{
+
+    position: relative;
+    top: 30%;
+    padding: 15px;
+}
+
+.expertise .image-of-expertise img{
+
+    width: 100%;
+    height: 250px;
+    margin-bottom: var(--mainmargin);
 
 }
 
