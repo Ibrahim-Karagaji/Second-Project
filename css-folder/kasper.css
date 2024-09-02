@@ -1174,6 +1174,42 @@ img:hover ~ .options{
 
 }
 
+.subscription .pric-of-platinum{
+
+    displaY: grid;
+    gap: 15px;
+    border-top: var(--maincolor) 1px solid;
+    padding: 10px 50px 0px;
+
+}
+
+.pric-of-platinum h1{
+
+    position: relative;
+    font-size: 70px;
+
+}
+
+.pric-of-platinum h1::before{
+
+    content: "$";
+    position: absolute;
+    font-size: 30px;
+    left: -20px;
+    top: 0px;
+
+}
+
+.pric-of-platinum h1::after{
+
+    content: "/Mo";
+    position: absolute;
+    font-size: 25px;
+    right: -45px;
+    bottom: 0px;
+
+}
+
 .subscription .features p{
 
     padding: 15px 0px;
