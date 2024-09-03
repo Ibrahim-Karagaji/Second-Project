@@ -1042,17 +1042,12 @@ img:hover ~ .options{
 
 /* start Pricing*/
 
-.pricing .container{
-
-    padding: 0px var(--mainpadding);
-
-}
-
 .pricing .type-of-subscriptions{
 
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 20px;
+    line-height: 1.5;
 
 }
 
@@ -1060,7 +1055,7 @@ img:hover ~ .options{
 .pricing .type-of-subscriptions{
 
     display: grid;
-    grid-template-columns: auto auto  ;
+    grid-template-columns: auto auto;
     
 }
 }
