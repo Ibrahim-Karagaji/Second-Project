@@ -1042,6 +1042,12 @@ img:hover ~ .options{
 
 /* start Pricing*/
 
+.pricing{
+
+    margin-bottom: var(--mainmargin);
+
+}
+
 .pricing .type-of-subscriptions{
 
     display: grid;
@@ -1236,6 +1242,29 @@ img:hover ~ .options{
     border: solid var(--maincolor) 1px;
     padding: 15px 10px;
     color: blue;
+
+}
+
+.pricing .contact-us{
+
+    text-align: center;
+    padding: 30px;
+    font-size: var(--mainfontsiez);
+
+}
+
+.contact-us p{
+
+    padding: 15px 20px;
+
+}
+
+.contact-us span{
+
+    padding: 15px 20px;
+    display: inline-block;
+    background-color: var(--maincolor);
+    color: var(--secondarycolor);
 
 }
 
