@@ -1052,7 +1052,26 @@ img:hover ~ .options{
 
     display: grid;
     grid-template-columns: auto auto auto auto;
+    gap: 20px;
 
+}
+
+@media(max-width:930px){
+.pricing .type-of-subscriptions{
+
+    display: grid;
+    grid-template-columns: auto auto  ;
+    
+}
+}
+
+@media(max-width:600px){
+.pricing .type-of-subscriptions{
+
+    display: grid;
+    grid-template-columns: auto ;
+
+}
 }
 
 .type-of-subscriptions .subscription{
