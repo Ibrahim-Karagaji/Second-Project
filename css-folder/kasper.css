@@ -1268,4 +1268,22 @@ img:hover ~ .options{
 
 }
 
+.pricing .contact-us-input{
+
+    position: relative;
+
+}
+
+.contact-us-input img{
+
+    width: 100%;
+
+}
+
+.contact-us-input .input-and-text{
+
+    position: absolute;
+
+}
+
 /* end Pricing*/
