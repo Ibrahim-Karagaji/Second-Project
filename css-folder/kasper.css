@@ -1277,13 +1277,90 @@ img:hover ~ .options{
 .contact-us-input img{
 
     width: 100%;
+    height: 200px;
 
 }
 
-.contact-us-input .input-and-text{
+.pricing form{
 
     position: absolute;
+    height: 100%;
+    width: 100%;
 
+}
+
+form .inputs-and-text{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    margin: 0px 20px;
+    
+}
+
+@media(max-width:680px){
+form .inputs-and-text{
+
+    display: grid;
+    gap: 20px;
+
+}
+}
+
+.inputs-and-text .inputs{
+
+    border: var(--secondarycolor) 1px solid;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+}
+
+.inputs-and-text i{
+
+    color: var(--secondarycolor);
+    font-size: 25px;
+    padding: 10px;
+ 
+}
+
+.inputs-and-text .email-input{
+
+    background-color: transparent;
+    border-color: transparent;
+    padding: 10px 0px;
+ 
+}
+
+.inputs-and-text .submit-input{
+
+    border-color: transparent;
+    background-color: var(--maincolor);
+    color:var(--secondarycolor);
+    padding: 20px;
+    font-size: 15px;
+ 
+}
+
+@media(max-width:400px){
+.inputs-and-text .submit-input{
+
+    border-color: transparent;
+    background-color: var(--maincolor);
+    color:var(--secondarycolor);
+    padding: 10px;
+    font-size: 10px;
+
+}
+}
+
+.inputs-and-text p{
+
+    color: var(--secondarycolor);
+    line-height: 1.5;
+ 
 }
 
 /* end Pricing*/
