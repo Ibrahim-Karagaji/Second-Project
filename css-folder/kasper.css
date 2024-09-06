@@ -1245,7 +1245,7 @@ img:hover ~ .options{
 
 }
 
-.pricing .contact-us{
+.pricing .button-of-contact-us{
 
     text-align: center;
     padding: 30px;
@@ -1253,13 +1253,13 @@ img:hover ~ .options{
 
 }
 
-.contact-us p{
+.button-of-contact-us p{
 
     padding: 15px 20px;
 
 }
 
-.contact-us span{
+.button-of-contact-us span{
 
     padding: 15px 20px;
     display: inline-block;
@@ -1364,3 +1364,91 @@ form .inputs-and-text{
 }
 
 /* end Pricing*/
+
+/* start contact us*/
+
+.contact-us{
+
+    padding: 0px var(--mainpadding);
+
+}
+
+.container .body-of-contact-us{
+
+    display: flex;
+    gap: 60px;
+
+}
+
+@media(max-width:700px){
+.container .body-of-contact-us{
+
+    display: grid;
+
+}
+}
+
+.body-of-contact-us .inputs-of-contact-us{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    
+}
+
+.inputs-of-contact-us .contact-us-input{
+
+    padding: 20px;
+    font-size: var(--mainfontsiez);
+    border: 1px solid #ccc;
+    width: 100%;
+
+}
+
+.inputs-of-contact-us .submit-of-contact-us{
+
+    display: flex;
+    align-self: end;
+    width: 130px;
+    height: 50px;
+    background-color: var(--maincolor);
+    color: var(--secondarycolor);
+    border: var(--maincolor) 1px solid;
+
+}
+
+
+.body-of-contact-us .location{
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    line-height: 2;
+
+}
+
+@media(max-width:700px){
+.body-of-contact-us .location{
+
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+
+}
+}
+
+.communication p{
+
+    padding: 0px 0px 10px;
+
+}
+
+.location .communication span{
+
+    display: block;
+    color:#777;
+
+}
+
+/* end contact us*/
