@@ -1466,8 +1466,40 @@ form .inputs-and-text{
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 40px 0px;
+
+}
+
+.footer .social p{
+
+    padding: 20px;
+    font-size: 25px;
+    color: var(--secondarycolor);
+    border-bottom: var(--secondarycolor) 2px solid;
+
+}
+
+.footer .social i{
+
+    display: flex;
     justify-content: center;
-    gap:20px;
+    color:var(--secondarycolor);
+    padding-top: 10px;
+
+}
+
+.footer .copyright p{
+
+    color:var(--secondarycolor);
+
+}
+
+.footer .copyright .special{
+
+    color:var(--maincolor);
 
 }
 
