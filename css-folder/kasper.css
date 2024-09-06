@@ -1453,3 +1453,22 @@ form .inputs-and-text{
 }
 
 /* end contact us*/
+
+/* start footer*/
+
+.footer{
+
+    background-image: url(../images-folder/subscribe.jpg);
+
+}
+
+.footer .container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+
+}
+
+/* end footer*/
