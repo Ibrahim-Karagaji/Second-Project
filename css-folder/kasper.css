@@ -1418,7 +1418,14 @@ form .inputs-and-text{
     border: var(--maincolor) 1px solid;
 
 }
+@media(max-width:700px){
+.inputs-of-contact-us .submit-of-contact-us{
 
+    display: flex;
+    align-self: center;
+
+}
+}
 
 .body-of-contact-us .location{
 
