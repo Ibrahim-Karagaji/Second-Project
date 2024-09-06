@@ -1370,6 +1370,7 @@ form .inputs-and-text{
 .contact-us{
 
     padding: 0px var(--mainpadding);
+    margin-bottom: var(--mainmargin);
 
 }
 
