@@ -1,12 +1,4 @@
 /*start Global Rules*/
-
-*{
-
-    max-width: 1600px;
-    width: 100%;
-
-}
-
 html{
 
     scroll-behavior: smooth;
@@ -16,6 +8,9 @@ html{
 body{
 
     font-family: "Open Sans", sans-serif;
+    max-width: 1366px;
+    margin: 0px auto ;
+    width: 100%;
 
 }
 
@@ -24,9 +19,15 @@ body{
     --maincolor: #19c8fa;
     --secondarycolor: white;
     --tertiary: black;
-    --mainmargin: 80px;
-    --mainpadding: 80px;
-    --mainfontsiez: 18px;
+    --marginofbigsreen: 80px;
+    --marginofmiddlesreen: 40px;
+    --marginofsmallsreen: 20px;
+    --paddingofbigsreen: 80px;
+    --paddingofmiddlesreen: 40px;
+    --paddingofsmallsreen: 20px;
+    --fontsizeofbigscreen: 18px;
+    --fontsizeofmiddlescreen: 14px;
+    --fontsizeofsmallscreen: 10px;
     --linkspadding: 17px;
     --backgroundtext:rgb(15 116 143 / 70%);
     --specialheadingfont: 20px;
@@ -40,7 +41,7 @@ body{
 
 .special-heading{
 
-    margin-top: var(--mainmargin);
+    margin-top: var(--marginofbigsreen);
     font-size: var(--specialheadingfont);
     text-align: center;
     color: var(--tertiary);
@@ -76,9 +77,9 @@ body{
     margin-top: 50px;
     text-align: center;
     color: #777;
-    margin-left: var(--mainmargin);
-    margin-right: var(--mainmargin);
-    padding-bottom: var(--mainpadding);
+    margin-left: var(--marginofbigsreen);
+    margin-right: var(--marginofbigsreen);
+    padding-bottom: var(--paddingofbigsreen);
 
 }
 
@@ -102,9 +103,9 @@ body{
     color: var(--secondarycolor);
     gap: 50px;
     border-bottom: white solid 1px;
-    font-size: var(--mainfontsiez);
-    margin-left: var(--mainmargin);
-    margin-right: var(--mainmargin);
+    font-size: var(--fontsizeofbigscreen);
+    margin-left: var(--marginofbigsreen);
+    margin-right: var(--marginofbigsreen);
     padding-top: 40px;
 }
 
@@ -228,7 +229,7 @@ body{
 
 .home-page .landing .container .text{
 
-    padding: var(--mainpadding) 20px var(--mainpadding) var(--mainpadding);
+    padding: var(--paddingofbigsreen) 20px var(--paddingofbigsreen) var(--paddingofbigsreen);
     background-color: var(--backgroundtext);
     
 }
@@ -288,7 +289,7 @@ body{
 
     display: flex;
     color: var(--secondarycolor);
-    margin-top: var(--mainmargin);
+    margin-top: var(--marginofbigsreen);
     justify-content: center;
     gap: 10px;
     padding-bottom: 20px;
@@ -320,8 +321,8 @@ body{
 .cards-of-service .cards{
 
     display: flex;
-    margin: var(--mainmargin);
-    font-size: var(--mainfontsiez);
+    margin: var(--marginofbigsreen);
+    font-size: var(--fontsizeofbigscreen);
     gap: 50px;
 
 }
@@ -390,7 +391,7 @@ body{
 
 .design .container .moblie-image{
 
-    padding-left: var(--mainpadding);
+    padding-left: var(--paddingofbigsreen);
     position: relative;
     top: 150px;
 }
@@ -445,7 +446,7 @@ body{
 .titles-of-portfolio{
 
     text-align: center;
-    padding-bottom: var(--mainpadding);
+    padding-bottom: var(--paddingofbigsreen);
 }
 
 .titles-of-portfolio span{
@@ -546,7 +547,7 @@ img:hover ~ .options{
 
     background-color: var(--maincolor);
     padding: 10px 20px;
-    margin-bottom: var(--mainmargin);
+    margin-bottom: var(--marginofbigsreen);
 
 }
 
@@ -675,12 +676,12 @@ img:hover ~ .options{
 
 .expertise {
 
-    margin-bottom: var(--mainmargin);
+    margin-bottom: var(--marginofbigsreen);
 
 }
 .expertise .container{
 
-    margin: var(--mainmargin); 
+    margin: var(--marginofbigsreen); 
 }
 
 .expertise .container{
@@ -712,7 +713,7 @@ img:hover ~ .options{
 
     line-height: 1.5;
     color:#777;
-    font-size: var(--mainfontsiez);
+    font-size: var(--fontsizeofbigscreen);
 
 }
 
@@ -1046,7 +1047,7 @@ img:hover ~ .options{
 
 .pricing{
 
-    margin-bottom: var(--mainmargin);
+    margin-bottom: var(--marginofbigsreen);
 
 }
 
@@ -1251,7 +1252,7 @@ img:hover ~ .options{
 
     text-align: center;
     padding: 30px;
-    font-size: var(--mainfontsiez);
+    font-size: var(--fontsizeofbigscreen);
 
 }
 
@@ -1371,8 +1372,8 @@ form .inputs-and-text{
 
 .contact-us{
 
-    padding: 0px var(--mainpadding);
-    margin-bottom: var(--mainmargin);
+    padding: 0px var(--paddingofbigsreen);
+    margin-bottom: var(--marginofbigsreen);
 
 }
 
@@ -1403,7 +1404,7 @@ form .inputs-and-text{
 .inputs-of-contact-us .contact-us-input{
 
     padding: 20px;
-    font-size: var(--mainfontsiez);
+    font-size: var(--fontsizeofbigscreen);
     border: 1px solid #ccc;
     width: 100%;
 
