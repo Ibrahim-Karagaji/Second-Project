@@ -149,7 +149,7 @@ body{
 }
 }
 
-@media(max-width:370px){
+@media(max-width:285px){
 .home-page .header .container
 {
 
@@ -240,7 +240,7 @@ body{
 
 }
 
-.home-page .header .container .font-of-search ::after{
+.home-page .font-of-search ::after{
 
     content: "";
     position: absolute;
@@ -259,10 +259,8 @@ body{
 .home-page .landing .container{
 
     color: var(--secondarycolor);
-    margin-left: 0px;
     margin-top: 50px;
     width: 50%;
-    height: 50%;
 
 }
 
@@ -276,27 +274,43 @@ body{
 
 }
 
-.home-page .landing .container .text{
+.landing  .text{
 
     padding: var(--paddingofbigsreen) 20px var(--paddingofbigsreen) var(--paddingofbigsreen);
     background-color: var(--backgroundtext);
+
+}
+
+@media(max-width:800px){
+ .landing  .text{
+
+    padding: var(--paddingofsmallsreen) 20px var(--paddingofsmallsreen) var(--paddingofsmallsreen);
+
+}
+}
+
+@media(max-width:800px){
+.landing  .text h2{
+
+    font-size: var(--fontsizeofbigscreen);
     
 }
-
-.home-page .landing .container .text p{
-
-    font-size: 40px;
-    padding-bottom: 15px;
-    line-height: 50px;
-
 }
 
-.home-page .landing .container .text span{
+.landing  .text span{
 
     line-height: 35px;
 
 }
 
+@media(max-width:800px){
+.landing  .text span{
+
+    font-size: var(--fontsizeofmiddlescreen);
+    line-height: 25px;
+
+}
+}
 
 .home-page .landing .container .move-options .right-option i{
 
