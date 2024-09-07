@@ -363,7 +363,7 @@ body{
 .home-page .landing .bullets{
 
     display: none;
-    
+
 }
 }
 
@@ -398,6 +398,24 @@ body{
 
 }
 
+@media(max-width:800px){
+.cards-of-service .cards{
+
+   
+    margin: var(--marginofmiddlesreen);
+    font-size: var(--fontsizeofmiddlescreen);
+    gap: 30px;
+}
+}
+
+@media(max-width:500px){
+.cards-of-service .cards{
+
+    margin: var(--marginofsmallsreen);
+    font-size: var(--fontsizeofsmallscreen);
+}
+}
+
 @media(max-width:1000px){
 .cards-of-service .cards{
 
@@ -424,11 +442,27 @@ body{
     padding-left: 30px;
 }
 
-.cards p{
+.cards h1{
     
-    font-size: 30px;
+    font-size: var(--fontsizeofbigscreen);
     color:var(--maincolor);
 
+}
+
+@media(max-width:800px){
+.cards h1{
+    
+    font-size: var(--fontsizeofbigscreen);
+
+}
+}
+
+@media(max-width:500px){
+.cards h1{
+    
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
 }
 
 .cards span{
