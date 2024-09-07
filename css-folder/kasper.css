@@ -33,9 +33,9 @@ body{
     --specialheadingofbigscreen: 20px;
     --specialheadingofmiddlescreen: 16px;
     --specialheadingofsmallscreen: 12px;
-    --servicesfontofbigscreen: 35px;
-    --servicesfontofmiddlescreen: 25px;
-    --servicesfontofsmallscreen: 15px;
+    --iconsfontbigscreen: 35px;
+    --iconsfontmiddlescreen: 25px;
+    --iconsfontsmallscreen: 15px;
 
 }
 
@@ -442,7 +442,7 @@ body{
 
 .cards i{
 
-    font-size: var(--servicesfontofbigscreen);
+    font-size: var(--iconsfontbigscreen);
 
 }
 
@@ -458,7 +458,7 @@ body{
 @media(max-width:800px){
 .cards i{
 
-    font-size: var(--servicesfontofmiddlescreen);
+    font-size: var(--iconsfontmiddlescreen);
 
 }
 }
@@ -466,7 +466,7 @@ body{
 @media(max-width:500px){
 .cards i{
 
-    font-size: var(--servicesfontofsmallscreen);
+    font-size: var(--iconsfontsmallscreen);
 
 }
 }
@@ -543,7 +543,6 @@ body{
     display: flex;
     background-image: url(../images-folder/design-features.jpg);
     height: 600px;
-    width: 100%;
     overflow: hidden;
 }
 
@@ -551,7 +550,6 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 100px;
     flex-grow: 1;
 }
@@ -584,25 +582,48 @@ body{
 
     display: flex;
     gap: 20px;
+    font-size: var(--fontsizeofbigscreen);
 
+}
+
+.design .text div i{
+
+    font-size: var(--iconsfontbigscreen);
+
+}
+
+@media(max-width:800px){
+.design .text div i{
+
+    font-size: var(--iconsfontmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.design .text div i{
+
+    font-size: var(--iconsfontsmallscreen);
+
+}
 }
 
 .design .font-design{
 
-    font-size: 8px;
     align-items: center;
 
 }
 
-.design .text h2{
+.design .text h1{
 
-    padding-bottom: 30px;
+    padding-bottom: var(--paddingofmiddlesreen);
+    font-size: var(--fontsizeofbigscreen);
 
 }
 
 .design .text p{
 
-    line-height: 50px;
+    line-height: 30px;
 
 }
 
