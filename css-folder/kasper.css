@@ -33,6 +33,9 @@ body{
     --specialheadingofbigscreen: 20px;
     --specialheadingofmiddlescreen: 16px;
     --specialheadingofsmallscreen: 12px;
+    --servicesfontofbigscreen: 35px;
+    --servicesfontofmiddlescreen: 25px;
+    --servicesfontofsmallscreen: 15px;
 
 }
 
@@ -431,14 +434,30 @@ body{
 
 .cards i{
 
-    font-size: 40px;
+    font-size: var(--servicesfontofbigscreen);
 
+}
+
+@media(max-width:800px){
+.cards i{
+
+    font-size: var(--servicesfontofmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.cards i{
+
+    font-size: var(--servicesfontofsmallscreen);
+
+}
 }
 
 .cards .text{
     
     display: grid;
-    gap: 35px;
+    gap: 25px;
     padding-left: 30px;
 }
 
