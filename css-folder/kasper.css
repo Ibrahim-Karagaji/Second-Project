@@ -123,28 +123,25 @@ body{
 .home-page .header .container{
 
     display:flex;
-    justify-content: space-between;
     align-items: center;
     color: var(--secondarycolor);
     gap: 50px;
     border-bottom: white solid 1px;
     font-size: var(--fontsizeofbigscreen);
-    margin-left: var(--marginofbigsreen);
-    margin-right: var(--marginofbigsreen);
+    margin: 0px var(--marginofbigsreen);
     padding-top: 40px;
 }
 
-@media(max-width:461px){
-
+@media(max-width:800px){
 .home-page .header .container{
 
-    border-style:  none;
-
-    }
-
+    font-size: var(--fontsizeofmiddlescreen);
+    margin: 0px var(--marginofmiddlesreen);
+    padding-top: 40px;
+}
 }
 
-.home-page .header .container .logo-image-of-header .logo-image{
+.logo-image-of-header .logo-image{
 
     width: 150px;
 
