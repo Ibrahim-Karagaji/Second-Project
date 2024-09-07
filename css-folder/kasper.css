@@ -30,7 +30,9 @@ body{
     --fontsizeofsmallscreen: 10px;
     --linkspadding: 17px;
     --backgroundtext:rgb(15 116 143 / 70%);
-    --specialheadingfont: 20px;
+    --specialheadingofbigscreen: 20px;
+    --specialheadingofmiddlescreen: 16px;
+    --specialheadingofsmallscreen: 12px;
 
 }
 
@@ -38,27 +40,44 @@ body{
 
 /*start Gcomponents*/
 
-
 .special-heading{
 
     margin-top: var(--marginofbigsreen);
-    font-size: var(--specialheadingfont);
+    font-size: var(--specialheadingofbigscreen);
     text-align: center;
     color: var(--tertiary);
     position: relative;
 
 }
 
+@media(max-width:800px){
+.special-heading{
+
+    margin-top: var(--marginofmiddlesreen);
+    font-size: var(--specialheadingofmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.special-heading{
+
+    margin-top: var(--marginofbigsreen);
+    font-size: var(--specialheadingofsmallscreen);
+
+}
+}
+
 .special-heading h1{
 
+    position: relative;
     border-bottom: var(--tertiary) solid 2px;
-    padding-top: 20px;
     padding-bottom: 20px;
     display: inline;
 
 }
 
-.special-heading::after{
+.special-heading h1::after{
 
     content: "";
     position: absolute;
@@ -67,20 +86,26 @@ body{
     border-radius: 50%;
     height: 10px;
     width: 10px;
-    right: 49.5%;
-    top: 57px;
+    bottom: -8px;
+    right: 50%;
 }
 
 
 .special-heading p{
 
     margin-top: 50px;
-    text-align: center;
     color: #777;
-    margin-left: var(--marginofbigsreen);
-    margin-right: var(--marginofbigsreen);
-    padding-bottom: var(--paddingofbigsreen);
+    margin: var(--marginofbigsreen);
+    line-height: 1.5;
 
+}
+
+@media(max-width:800px){
+.special-heading p{
+
+    margin: var(--marginofmiddlesreen);
+
+}
 }
 
 /*end components*/
