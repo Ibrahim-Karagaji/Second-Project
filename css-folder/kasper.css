@@ -141,10 +141,27 @@ body{
 }
 }
 
+@media(max-width:370px){
+.home-page .header .container
+{
+
+ border-bottom: none;
+
+}
+}
+
 .logo-image-of-header .logo-image{
 
     width: 150px;
 
+}
+
+@media(max-width:800px){
+.logo-image-of-header .logo-image{
+
+    width: 100px;
+
+}
 }
 
 .home-page .header .container .links{
