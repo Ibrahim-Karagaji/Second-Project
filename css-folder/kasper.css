@@ -137,7 +137,15 @@ body{
 
     font-size: var(--fontsizeofmiddlescreen);
     margin: 0px var(--marginofmiddlesreen);
-    padding-top: 40px;
+
+}
+}
+
+@media(max-width:500px){
+.home-page .header .container{
+
+    margin: 0px var(--marginofsmallsreen);
+
 }
 }
 
@@ -173,24 +181,24 @@ body{
 
 }
 
-.home-page .header .container .links a{
+.container .links a{
 
     padding: var(--linkspadding);
 
 }
 
-.home-page .header .container .links .active{
+ .container .links .active{
 
     border-bottom: var(--maincolor) solid 1px;
 
 }
 
-.home-page .header .container .links .active{
+.container .links .active{
 
     color: var(--maincolor);
 }
 
-.home-page .header .container .links :hover{
+.home-page .links :hover{
 
     color: var(--maincolor);
     padding: var(--linkspadding);
@@ -208,7 +216,7 @@ body{
 
 }
 
-.home-page .header .container .font-of-options{
+.home-page .font-of-options{
 
     display: none;
 
@@ -216,7 +224,7 @@ body{
 
 @media(max-width:1000px){
 
-    .home-page .header .container .font-of-options{
+    .home-page .header .font-of-options{
   
         display: flex;
         flex-grow: 1;
@@ -226,19 +234,21 @@ body{
 
 }
 
-@media(min-width:461px){
+.home-page .header .font-of-search{
+
+    position: relative;
+
+}
 
 .home-page .header .container .font-of-search ::after{
 
-   content: "";
-   position: absolute;
-   background-color: var(--secondarycolor);
-   height: 30px;
-   width: 2px;
-   right: 120px;
-   top: 53px;
-
-    }
+    content: "";
+    position: absolute;
+    background-color: var(--secondarycolor);
+    height: 25px;
+    width: 2px;
+    top: -3px;
+    left: -15px;
 
 }
 
