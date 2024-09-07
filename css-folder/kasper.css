@@ -431,11 +431,28 @@ body{
     display: flex;
 }
 
+@media(max-width:1000px){
+.card{
+
+    display: grid;
+    justify-content: center;
+
+}
+}
 
 .cards i{
 
     font-size: var(--servicesfontofbigscreen);
 
+}
+
+@media(max-width:1000px){
+.cards i{
+
+    display: flex;
+    justify-content: center;
+
+}
 }
 
 @media(max-width:800px){
@@ -457,8 +474,17 @@ body{
 .cards .text{
     
     display: grid;
-    gap: 25px;
+    gap: 20px;
     padding-left: 30px;
+
+}
+
+@media(max-width:1000px){
+.cards .text{
+    
+    text-align: center;
+    padding:0px;
+}
 }
 
 .cards h1{
@@ -489,6 +515,23 @@ body{
     color:#777;
     line-height: 30px;
 
+}
+
+@media(max-width:800px){
+.cards span{
+
+
+    line-height: 25px;
+
+}
+}
+
+@media(max-width:500px){
+.cards span{
+
+    line-height: 15px;
+
+}
 }
 
 /* end services*/
