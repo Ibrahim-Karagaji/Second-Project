@@ -2,7 +2,9 @@
 
 *{
 
-    margin: 0px;
+    max-width: 1600px;
+    width: 100%;
+
 }
 
 html{
@@ -1507,7 +1509,7 @@ form .inputs-and-text{
 .footer .copyright .special{
 
     color:var(--maincolor);
-
+    font-weight: bold;
 }
 
 /* end footer*/
