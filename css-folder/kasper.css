@@ -863,19 +863,39 @@ body{
 
 .video .text{
 
-    padding: 60px;      
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--fontsizeofbigscreen);
+    padding: var(--paddingofmiddlesreen);      
     color: var(--secondarycolor);
-    margin-top: 13%;
     background-color: var(--backgroundtext);
+    margin-top: var(--marginofbigsreen);
 
+}
+
+@media(max-width:800px){
+.video .text{
+
+    font-size: var(--fontsizeofsmallscreen);
+    padding: var(--paddingofsmallsreen);    
+
+}
+}
+
+@media(max-width:450px){
+.video .text{
+
+    margin-top: var(--marginofsmallsreen);
+
+}
 }
 
 .text .link{
 
     padding: 10px 20px;
     background-color: var(--tertiary);
-
+    font-family: math;
 }
 
 /* end video*/
