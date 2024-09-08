@@ -631,6 +631,12 @@ body{
 
 /* start Portfolio*/
 
+.portfolio{
+
+    margin-bottom: 30px;
+
+}
+
 .titles-of-portfolio{
 
     text-align: center;
@@ -718,13 +724,14 @@ body{
 .images .options{
 
     position: absolute;
-    bottom: -67px;
+    bottom: -85px;
     width: 100%;
     background-color: var(--secondarycolor);
+
 }
 
 img:hover ~ .options{
-
+    
     bottom: 0px;
     padding: 10px;
     transition: 0.5s;
@@ -745,7 +752,6 @@ img:hover ~ .options{
 .portfolio img{
     
     width: 100%;
-    margin-bottom: -66px;
     
 }
 
@@ -764,12 +770,20 @@ img:hover ~ .options{
     margin-top: 20px;
 }
 
-.more-option h3{
+.more-option h1{
 
     background-color: var(--maincolor);
     padding: 10px 20px;
-    margin-bottom: var(--marginofbigsreen);
+    font-size: var(--fontsizeofbigscreen);
 
+}
+
+@media(max-width:800px){
+.more-option h1{
+
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
 }
 
 /* end Portfolio*/
