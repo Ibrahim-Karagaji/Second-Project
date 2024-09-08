@@ -730,7 +730,63 @@ body{
 
 }
 
-img:hover ~ .options{
+.image1:hover .options{
+    
+    bottom: 0px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+.image2:hover .options{
+    
+    bottom: 0px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+.image3:hover .options{
+    
+    bottom: 0px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+.image4:hover .options{
+    
+    bottom: 0px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+.image5:hover .options{
+    
+    bottom: 0px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+.image6:hover .options{
+    
+    bottom: 0px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+.image7:hover .options{
+    
+    bottom: 0px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+.image8:hover .options{
     
     bottom: 0px;
     padding: 10px;
@@ -790,7 +846,7 @@ img:hover ~ .options{
 
 /* start video*/
 
-.video .container{
+.video .bird-video{
 
     position: relative;
 
