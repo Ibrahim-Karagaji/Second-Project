@@ -637,10 +637,43 @@ body{
     padding-bottom: var(--paddingofbigsreen);
 }
 
+@media(max-width:800px){
+.titles-of-portfolio{
+
+    padding-bottom: var(--paddingofmiddlesreen);
+
+}
+}
+
+@media(max-width:500px){
+.titles-of-portfolio{
+
+    padding-bottom: var(--paddingofsmallsreen);
+
+}
+}
+
 .titles-of-portfolio span{
 
     padding: 10px;
+    font-size: var(--fontsizeofbigscreen);
     
+}
+
+@media(max-width:800px){
+.titles-of-portfolio span{
+
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.titles-of-portfolio span{
+
+    font-size: var(--fontsizeofsmallscreen);
+
+}
 }
 
 .titles-of-portfolio .active{
