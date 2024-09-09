@@ -1684,7 +1684,6 @@ body{
 .subscription .pric-of-pro{
 
     displaY: grid;
-    gap: 15px;
     border-top: var(--maincolor) 1px solid;
     padding: 10px 50px 0px;
 
@@ -1695,6 +1694,15 @@ body{
     position: relative;
     font-size: 70px;
 
+}
+
+@media(max-width:800px){
+.pric-of-pro h1{
+
+    position: relative;
+    font-size: 50px;
+
+}
 }
 
 .pric-of-pro h1::before{
