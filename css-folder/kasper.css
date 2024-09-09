@@ -983,29 +983,30 @@ body{
 
 /* start expertise*/
 
-.expertise {
-
-    margin-bottom: var(--marginofbigsreen);
-
-}
-.expertise .container{
-
-    margin: var(--marginofbigsreen); 
-}
-
 .expertise .container{
 
     display: grid;
     grid-template-columns: auto auto;
     gap: 30px;
+    margin: var(--marginofbigsreen); 
+    font-size: var(--fontsizeofbigscreen);
 }
 
-@media(max-width:1080px){
-    .expertise .container{
-    
-        display: grid;
-        grid-template-columns: auto;
-    
+@media(max-width:800px){
+.expertise .container{
+
+    margin: var(--marginofmiddlesreen); 
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.expertise .container{
+
+    margin: var(--marginofsmallsreen); 
+    font-size: var(--fontsizeofsmallscreen);
+
 }
 }
 
@@ -1013,8 +1014,7 @@ body{
 
     text-align: center;
     display: grid;
-    gap: 25px;
-    margin-bottom: 80px;
+    margin-bottom: var(--marginofmiddlesreen);
 
 }
 
@@ -1022,7 +1022,6 @@ body{
 
     line-height: 1.5;
     color:#777;
-    font-size: var(--fontsizeofbigscreen);
 
 }
 
