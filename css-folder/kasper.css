@@ -1119,23 +1119,70 @@ body{
 
 }
 
-.statistics .rates{
+.rates .progs{
 
-    display: grid;
-    gap: 20px;
+    display: flex;
 
 }
 
 .rates h3{
 
-    padding-bottom: 15px;
+    font-size: var(--fontsizeofbigscreen);
 
 }
 
-.rates .progs{
+@media(max-width:800px){
+.rates h3{
 
-    display: flex;
+    font-size: var(--fontsizeofmiddlescreen);
 
+}
+}
+
+@media(max-width:500px){
+.rates h3{
+
+    font-size: var(--fontsizeofsmallscreen);
+
+}
+}
+
+.adobe-rate .full{
+
+    position: relative;
+    width: 90%;
+    height: 30px;
+    background-color: var(--maincolor);
+
+}
+
+@media(max-width:800px){
+.adobe-rate .full{
+
+    position: relative;
+    width: 90%;
+    height: 15px;
+    background-color: var(--maincolor);
+
+}
+}
+
+.adobe-rate .empty{
+
+    width: 10%;
+    height: 30px;
+    background-color: #dedadc;
+
+}
+
+@media(max-width:800px){
+.adobe-rate .empty{
+
+    width: 10%;
+    height: 15px;
+    background-color: #dedadc;
+
+}
 }
 
  .adobe-rate .full::after{
@@ -1154,6 +1201,24 @@ body{
 
 }
 
+@media(max-width:800px){
+ .adobe-rate .full::after{
+
+    content: "90%";
+    font-size: var(--fontsizeofsmallscreen);
+    position: absolute;
+    background-color: var(--tertiary);
+    color: var(--secondarycolor);
+    border: 5px solid var(--tertiary);
+    border-radius: 10%;
+    height: 12px;
+    width: 20px;
+    right: -13px;
+    top: -34px;
+
+}
+}
+
 .adobe-rate .full::before{
 
     content: "";
@@ -1169,23 +1234,6 @@ body{
 
 }
 
-.adobe-rate .full{
-
-    position: relative;
-    width: 90%;
-    height: 30px;
-    background-color: var(--maincolor);
-
-}
-
-.adobe-rate .empty{
-
-    width: 10%;
-    height: 30px;
-    background-color: #dedadc;
-
-}
-
 .html-and-css-rate .full{
 
     position: relative;
@@ -1193,6 +1241,17 @@ body{
     height: 30px;
     background-color: var(--maincolor);
 
+}
+
+@media(max-width:800px){
+.html-and-css-rate .full{
+
+    position: relative;
+    width: 85%;
+    height: 15px;
+    background-color: var(--maincolor);
+
+}
 }
 
 .html-and-css-rate .full::after{
@@ -1211,6 +1270,23 @@ body{
 
 }
 
+@media(max-width:800px){
+.html-and-css-rate .full::after{
+
+    content: "85%";
+    font-size: var(--fontsizeofsmallscreen);
+    position: absolute;
+    background-color: var(--tertiary);
+    color: var(--secondarycolor);
+    border: 5px solid var(--tertiary);
+    border-radius: 10%;
+    height: 11px;
+    width: 20px;
+    right: -13px;
+    top: -31px;
+}
+}    
+
 .html-and-css-rate .full::before{
 
     content: "";
@@ -1223,7 +1299,6 @@ body{
     width: 0px;
     top: -19px;
     right: -14px;
-
 }
 
 .html-and-css-rate .empty{
@@ -1232,6 +1307,16 @@ body{
     height: 30px;
     background-color: #dedadc;
 
+}
+
+@media(max-width:800px){
+.html-and-css-rate .empty{
+
+    width: 15%;
+    height: 15px;
+    background-color: #dedadc;
+
+}
 }
 
 .javascript-rate .full{
