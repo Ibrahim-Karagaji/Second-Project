@@ -1791,6 +1791,23 @@ body{
 
 }
 
+@media(max-width:800px){
+.pricing .button-of-contact-us{
+
+
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.pricing .button-of-contact-us{
+
+    font-size: var(--fontsizeofsmallscreen);
+
+}
+}
+
 .button-of-contact-us p{
 
     padding: 15px 20px;
@@ -1823,8 +1840,6 @@ body{
 
     position: absolute;
     height: 100%;
-    width: 100%;
-
 }
 
 form .inputs-and-text{
@@ -1834,15 +1849,16 @@ form .inputs-and-text{
     align-items: center;
     gap: 20px;
     height: 100%;
-    margin: 0px 20px;
+    margin: 0px var(--marginofsmallsreen);
     
 }
 
-@media(max-width:680px){
+@media(max-width:800px){
 form .inputs-and-text{
 
-    display: grid;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
 }
@@ -1852,24 +1868,46 @@ form .inputs-and-text{
     border: var(--secondarycolor) 1px solid;
     display: flex;
     align-items: center;
-    width: fit-content;
-
+    margin-top: var(--marginofsmallsreen);
 }
 
 .inputs-and-text i{
 
     color: var(--secondarycolor);
-    font-size: 25px;
+    font-size: var(--iconsfontbigscreen);
     padding: 10px;
  
+}
+
+@media(max-width:800px){
+.inputs-and-text i{
+
+    font-size: var(--iconsfontmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.inputs-and-text i{
+
+    font-size: var(--iconsfontsmallscreen);
+
+}
 }
 
 .inputs-and-text .email-input{
 
     background-color: transparent;
     border-color: transparent;
-    padding: 10px 0px;
- 
+
+}
+
+@media(max-width:500px){
+.inputs-and-text .email-input{
+
+    width: 100%;
+
+}
 }
 
 .inputs-and-text .submit-input{
@@ -1878,19 +1916,23 @@ form .inputs-and-text{
     background-color: var(--maincolor);
     color:var(--secondarycolor);
     padding: 20px;
-    font-size: 15px;
+    font-size: var(--fontsizeofbigscreen);
  
 }
 
-@media(max-width:400px){
+@media(max-width:800px){
 .inputs-and-text .submit-input{
 
-    border-color: transparent;
-    background-color: var(--maincolor);
-    color:var(--secondarycolor);
-    padding: 10px;
-    font-size: 10px;
+    font-size: var(--fontsizeofmiddlescreen);
+    padding: 15px;
+}
+}
 
+@media(max-width:500px){
+.inputs-and-text .submit-input{
+
+    font-size: var(--fontsizeofsmallscreen);
+    padding: 15px;
 }
 }
 
@@ -1898,7 +1940,24 @@ form .inputs-and-text{
 
     color: var(--secondarycolor);
     line-height: 1.5;
+    font-size: var(--fontsizeofbigscreen);
  
+}
+
+@media(max-width:800px){
+.inputs-and-text p{
+
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.inputs-and-text p{
+
+    font-size: var(--fontsizeofsmallscreen);
+
+}
 }
 
 /* end Pricing*/
