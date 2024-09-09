@@ -1039,10 +1039,11 @@ body{
 
 }
 
-@media(max-width:930px){
+@media(max-width:1000px){
 .people-cards .person-card{
 
     display: grid;
+    gap: 15px;
 
 }
 }
@@ -1053,7 +1054,7 @@ body{
     border-radius: 50%;
 }
 
-@media(max-width:930px){
+@media(max-width:1000px){
 .person-card img{
 
     displaY: flex;
@@ -1062,24 +1063,36 @@ body{
 }
 }
 
-.person-card img{
-
-    width: 100px;
-    border-radius: 50%;
-}
-
 .person-card .text{
 
     display: grid;
     border-bottom: 1px solid #777;
-    gap: 10px;
 
 }
 
 .text span{
 
     justify-self: end;
+    font-size: var(--fontsizeofbigscreen);
 
+}
+
+@media(max-width:800px){
+.text span{
+
+    justify-self: end;
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
+}
+
+@media(max-width:500px){
+.text span{
+
+    justify-self: end;
+    font-size: var(--fontsizeofsmallscreen);
+
+}
 }
 
 .testimonial .circles-of-testimonial{
@@ -1093,11 +1106,10 @@ body{
 
 .circles-of-testimonial div{
 
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border: #777 solid 1px;
     border-radius: 50%;
-    background-color: var(--secondarycolor);
 
 }
 
