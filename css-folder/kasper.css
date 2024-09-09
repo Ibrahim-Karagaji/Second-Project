@@ -1728,10 +1728,8 @@ body{
 .subscription .pric-of-platinum{
 
     displaY: grid;
-    gap: 15px;
     border-top: var(--maincolor) 1px solid;
     padding: 10px 50px 0px;
-
 }
 
 .pric-of-platinum h1{
@@ -1739,6 +1737,15 @@ body{
     position: relative;
     font-size: 70px;
 
+}
+
+@media(max-width:800px){
+.pric-of-platinum h1{
+
+    position: relative;
+    font-size: 50px;
+
+}
 }
 
 .pric-of-platinum h1::before{
