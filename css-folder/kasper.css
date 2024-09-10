@@ -2135,6 +2135,19 @@ form .inputs-and-text{
 
 }
 
+.footer img{
+
+    width: 150px;
+
+}
+
+@media(max-width:800px){
+.footer img{
+
+    width: 80px;
+}
+}
+
 .footer .social h1{
 
     padding: 20px;
