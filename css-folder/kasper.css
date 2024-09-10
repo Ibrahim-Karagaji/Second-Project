@@ -2023,6 +2023,24 @@ form .inputs-and-text{
 
 }
 
+@media(max-width:800px){
+.inputs-of-contact-us .contact-us-input{
+    
+    padding: 15px;
+    font-size: var(--fontsizeofmiddlescreen);
+    
+}
+}
+    
+@media(max-width:500px){
+.inputs-of-contact-us .contact-us-input{
+    
+    padding: 10px;
+    font-size: var(--fontsizeofsmallscreen);
+    
+}
+}
+
 .inputs-of-contact-us .submit-of-contact-us{
 
     display: flex;
