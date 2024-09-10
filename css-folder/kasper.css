@@ -2085,13 +2085,22 @@ form .inputs-and-text{
 }
 
 @media(max-width:800px){
-.body-of-contact-us .location{
-
+    .body-of-contact-us .location{
+    
     display: grid;
     justify-content: center;
-}
-}
+    font-size: var(--fontsizeofmiddlescreen);
 
+}
+}
+    
+@media(max-width:500px){
+.body-of-contact-us .location{
+    
+    gap:30px;
+    font-size: var(--fontsizeofsmallscreen);
+}
+}
 
 .communication p{
 
