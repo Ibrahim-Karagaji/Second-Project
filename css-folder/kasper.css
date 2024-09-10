@@ -2053,6 +2053,26 @@ form .inputs-and-text{
 
 }
 
+@media(max-width:800px){
+.inputs-of-contact-us .submit-of-contact-us{
+    
+    display: flex;
+    align-self: center;
+    font-size: var(--fontsizeofmiddlescreen);
+    padding: 15px;
+    
+}
+}
+    
+@media(max-width:500px){
+.inputs-of-contact-us .submit-of-contact-us{
+    
+    
+    font-size: var(--fontsizeofsmallscreen);
+    padding: 10px;
+    
+}
+}
 
 .body-of-contact-us .location{
 
