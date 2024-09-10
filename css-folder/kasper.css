@@ -2157,6 +2157,15 @@ form .inputs-and-text{
 
 }
 
+@media(max-width:800px){
+.footer .social h1{
+
+    padding: 15px;
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
+}
+
 .footer a{
 
     text-decoration: none;
@@ -2179,6 +2188,20 @@ form .inputs-and-text{
     color:var(--secondarycolor);
     font-size: var(--fontsizeofbigscreen);
 
+}
+
+@media(max-width:800px){
+.footer .copyright p{
+    
+    font-size: var(--fontsizeofmiddlescreen);
+}
+}
+    
+@media(max-width:500px){
+.footer .copyright p{
+    
+    font-size: var(--fontsizeofsmallscreen);
+}
 }
 
 .footer .copyright .special{
