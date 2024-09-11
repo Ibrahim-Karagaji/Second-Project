@@ -90,7 +90,8 @@ body{
     height: 10px;
     width: 10px;
     bottom: -8px;
-    right: 50%;
+    top: 90%;
+    left: 45%;
 }
 
 
@@ -253,7 +254,7 @@ body{
     height: 25px;
     width: 2px;
     top: -3px;
-    left: -30px;
+    left: -25px;
 
 }
 
@@ -811,7 +812,56 @@ body{
     
 }
 
-.portfolio img:hover{
+.image1:hover img{
+    
+    transform: scale(1.1) rotate(3deg);
+    transition: 0.5s;    
+
+}
+
+.image2:hover img{
+    
+    transform: scale(1.1) rotate(3deg);
+    transition: 0.5s;    
+
+}
+
+.image3:hover img{
+    
+    transform: scale(1.1) rotate(3deg);
+    transition: 0.5s;    
+
+}
+
+.image4:hover img{
+    
+    transform: scale(1.1) rotate(3deg);
+    transition: 0.5s;    
+
+}
+
+.image5:hover img{
+    
+    transform: scale(1.1) rotate(3deg);
+    transition: 0.5s;    
+
+}
+
+.image6:hover img{
+    
+    transform: scale(1.1) rotate(3deg);
+    transition: 0.5s;    
+
+}
+
+.image7:hover img{
+    
+    transform: scale(1.1) rotate(3deg);
+    transition: 0.5s;    
+
+}
+
+.image8:hover img{
     
     transform: scale(1.1) rotate(3deg);
     transition: 0.5s;    
