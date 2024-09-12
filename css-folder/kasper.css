@@ -178,7 +178,7 @@ body{
 }
 }
 
-.home-page .header .container .links{
+.header .links{
 
     display: flex;
     flex-grow: 1;
@@ -238,15 +238,6 @@ body{
         
     }
 
-}
-
-@media(max-width:1000px){
-    .font-of-search:hover + .links{
-
-        display: grid;
-        color: goldenrod;
-        background-color: white;
-    }
 }
 
 .home-page .header .font-of-search{
@@ -1958,6 +1949,20 @@ form .inputs-and-text{
 
     background-color: transparent;
     border-color: transparent;
+
+}
+
+.inputs-and-text .email-input::placeholder{
+
+    color: var(--secondarycolor);
+
+}
+
+.inputs-and-text .email-input:focus{
+
+    outline: none;
+    border-color: transparent;
+    caret-color: var(--maincolor);
 
 }
 
