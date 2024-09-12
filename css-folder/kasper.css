@@ -240,6 +240,15 @@ body{
 
 }
 
+@media(max-width:1000px){
+    .font-of-search:hover + .links{
+
+        display: grid;
+        color: goldenrod;
+        background-color: white;
+    }
+}
+
 .home-page .header .font-of-search{
 
     position: relative;
@@ -1829,7 +1838,7 @@ body{
 
     border: solid var(--maincolor) 1px;
     padding: 15px 10px;
-    color: blue;
+    color: var(--maincolor);
 
 }
 
