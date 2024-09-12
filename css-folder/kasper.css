@@ -2087,6 +2087,13 @@ form .inputs-and-text{
 
 }
 
+.inputs-of-contact-us .contact-us-input:focus{
+
+    outline: none;
+    border-color: gray;
+
+}
+
 @media(max-width:800px){
 .inputs-of-contact-us .contact-us-input{
     
