@@ -225,6 +225,7 @@ body{
 .home-page .font-of-options{
 
     display: none;
+    position: relative;
 
 }
 
@@ -725,7 +726,7 @@ body{
 .images .options{
 
     position: absolute;
-    bottom: -85px;
+    bottom: -86px;
     width: 100%;
     background-color: var(--secondarycolor);
 
@@ -804,6 +805,42 @@ body{
 .images p{
 
     color:var(--maincolor)
+}
+
+@media(max-width:500px){
+.options h4{
+
+    margin-bottom: 10px;
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
+}
+
+@media(max-width:300px){
+.options h4{
+
+    margin-bottom: 10px;
+    font-size: var(--fontsizeofsmallscreen);
+
+}
+}
+
+@media(max-width:500px){
+.images p{
+
+    color:var(--maincolor);
+    font-size: var(--fontsizeofmiddlescreen);
+
+}
+}
+
+@media(max-width:300px){
+.images p{
+
+    color:var(--maincolor);
+    font-size: var(--fontsizeofsmallscreen);
+
+}
 }
 
 .portfolio img{
